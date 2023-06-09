@@ -1,1 +1,84 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+<header class="cabecalho">
+        <img src="img/Logo.svg" alt="Logo da Alurabooks">
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
+            <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras"></a>
+            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"</a> 
+            </div>
+<h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+.container__botao {
+    display: none;
+}
 
+.container__titulo {
+    display: none;
+}
+
+.opções {
+    display: none;
+}
+
+.container__texto {
+    display: none;
+}
+/* Definir a largura e a altura de um elemento */
+img {
+    width: 200px;
+    height: 150px;
+}
+
+/* Definir o posicionamento de um elemento */
+div {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+/* Definir margens em todos os lados de um elemento */
+div {
+    margin: 10px;
+}
+
+/* Definir margens diferentes para cada lado de um elemento */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Definir preenchimento interno de um elemento */
+p {
+    padding: 5px;
+}
+/* Definir a fonte e o tamanho do texto */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Definir o estilo da fonte (negrito, itálico) */
+em {
+    font-style: italic;
+}
+
+/* Definir o tamanho da fonte em porcentagem */
+h2 {
+    font-size: 120%;
+}
+/* Definir a cor de fundo do corpo da página */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Definir a cor do texto */
+h1 {
+    color: blue;
+}
+
+/* Definir a cor de fundo de um elemento */
+div {
+    background-color: yellow;
+}
